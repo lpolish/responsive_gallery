@@ -1,0 +1,61 @@
+Image Gallery
+
+This is a simple image gallery application built with Node.js and Express.
+
+Features
+- Displays a grid of images retrieved from the `images` directory
+- Allows the user to click on an image to view it in a lightbox
+- Supports infinite scrolling to dynamically load more images
+
+Installation
+
+To install and run this application, follow these steps:
+
+1. Clone this repository to your local machine:
+
+   git clone https://github.com/polishbaires/responsive_gallery.git
+
+2. Change into the project directory:
+
+   cd image-gallery
+
+3. Install the dependencies:
+
+   npm install
+
+4. Start the server:
+
+   npm start
+
+5. Open a web browser and navigate to `http://localhost:3000` to view the application.
+
+Usage
+
+Once the application is running, you can view the image gallery and interact with it as follows:
+
+- Click on an image to view it in a lightbox.
+- Click the close button or click outside the lightbox to close it.
+- Scroll down to dynamically load more images.
+- Navigate to `http://localhost:3000/api/images/:page` to retrieve a JSON object containing a page of images.
+
+Deployment
+
+To deploy this application, you can use Docker and Docker Compose. Follow these steps:
+
+1. Clone this repository to your deployment machine:
+
+   git clone https://github.com/example/image-gallery.git
+
+2. Change into the project directory:
+
+   cd image-gallery
+
+3. Start the application using Docker Compose:
+
+   docker-compose up -d
+
+4. Open a web browser and navigate to `http://localhost:3000` to view the application.
+
+Credits
+
+This application was created by Luis Pulido Diaz with the help of the mighty ChatGPT 3.5
